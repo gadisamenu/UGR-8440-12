@@ -1,0 +1,91 @@
+.link--evaluation {
+    text-decoration: underline;
+    height: 2.8rem;
+    padding-top: 4%;
+}
+
+.main__heading {
+    margin-top: 4rem;
+}
+
+.Explain {
+    margin: 1rem
+}
+
+.Explain__content {
+    padding: 1rem;
+    font-family: 'Courier New', Courier, monospace, serif, sans-serif;
+    font-size: 1.5rem;
+}
+
+.eval {
+    border: 10px double rgba(158, 214, 202, 0.863);
+}
+
+.eval__form{
+    padding: 2rem;
+}
+.eval__form__fieldset {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    border: none;
+}
+
+.eval__form__fieldset__evalcard{
+    margin: 1rem 1rem 3rem;
+}
+.eval__form__fieldset__evalcard__question {
+    border-bottom: 3px solid black;
+    padding-bottom: 1rem;
+    width: fit-content;
+
+}
+
+.eval__form__fieldset__evalcard__radiobtn{
+    display: flex;
+    flex-wrap: wrap;
+}
+.radiobtn {
+    margin: 0.2rem 1rem;
+    box-shadow: 0 0 0.5rem rgb(137, 202, 137);
+    list-style-type: none;
+    width: 8em;
+}
+
+.btn--submit {
+    float: right;
+    margin-right: 2rem;
+    margin-bottom: -6rem;
+    font-size: 1.2rem;
+}
+
+/* tablate */
+@media screen and (max-width:925px) {
+    .link--evaluation {
+        height: 2.2rem;
+        padding-top: 4%;
+    }
+    .eval__form__fieldset__evalcard__radiobtn{
+        display: flex;
+        flex-direction:column;
+    }
+
+}
+
+/* mobile view */
+@media screen and (max-width:700px) {
+    .link--evaluation {
+        height: 2rem;
+        padding: 0%
+    }
+
+    .maincontent {
+        font-size: 1.2rem;
+    }
+    /* .eval__form__fieldset__evalcard__radiobtn{
+        display: flex;
+        flex-direction:column;
+    } */
+
+}

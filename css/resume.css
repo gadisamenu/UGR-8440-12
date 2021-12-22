@@ -1,0 +1,80 @@
+.link--resume {
+    text-decoration: underline;
+    height: 2.8rem;
+    padding-top: 4%;
+}
+
+.main__heading {
+    margin-top: 2rem;
+    color: rgb(109, 109, 163);
+    border-bottom: 1px solid rgb(80, 105, 133);
+    font-size: 5rem;
+}
+
+.maincontent__resume {
+    width: 65%;
+    margin: auto;
+}
+
+.maincontent__body {
+    border: 1px solid black;
+    border-radius: 3rem 1rem;
+    box-shadow: 0 0 1rem rgb(86, 180, 86);
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.btn--download {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    width: fit-content;
+    margin-top: 0rem;
+    margin-right: 4rem;
+    padding: 0.2rem 0.4rem;
+    background-color: rgba(226, 217, 217, 0.685);
+    float: right;
+    font-size: 1.5rem;
+}
+
+.btn--download:hover {
+    transform: scale3d(1.5, 1.5, 1.5);
+}
+
+
+/* tablate */
+@media only screen and (max-width:925px) {
+    .link--resume {
+        height: 2.2rem;
+        padding-top: 4%;
+    }
+
+    .maincontent__resume {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .link--resume {
+        height: 2rem;
+        padding: 0%;
+    }
+
+    .maincontent__resume {
+        width: 100%;
+        margin: auto;
+    }
+
+    .maincontent__body {
+        font-size: 2.5em;
+    }
+
+    .btn--download {
+        padding: 0.2rem 0.4rem;
+        font-size: 2em;
+    }
+
+
+
+}

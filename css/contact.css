@@ -1,0 +1,61 @@
+.link--contact {
+    text-decoration: underline;
+    height: 2.8rem;
+    padding-top: 4%;
+}
+
+.description {
+    margin: 1rem;
+    margin-bottom: 3rem;
+    border-radius: 2rem 3rem;
+    padding: 1rem;
+    box-shadow: 0 0 3rem rgba(80, 182, 165, 0.87);
+}
+
+.address {
+    margin-left: 2vw;
+    border: 1px solid black;
+    border-radius: 3rem;
+    padding: 3rem;
+}
+
+.address__myaddress {
+    margin-bottom: 2rem;
+
+}
+
+.socialmedia {
+    width: 50%;
+    margin: auto;
+}
+
+.icons {
+    height: 5vmin;
+}
+
+.links {
+    border: 1px solid black;
+}
+
+/* tabate */
+@media only screen and (max-width:925px) {
+    .link--contact {
+        height: 2.2rem;
+        padding-top: 4%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .maincontent {
+        font-size: 1.2rem;
+    }
+
+    .profile__infor {
+        border-radius: 1rem;
+    }
+
+    .link--contact {
+        height: 2rem;
+        padding-top: 0%;
+    }
+}
