@@ -79,8 +79,8 @@
     }
 
     .profile__photo {
-        height: 30vw;
-        width: auto;
+        height: auto;
+        width: 80vw;
     }
 
     .profile__infor {

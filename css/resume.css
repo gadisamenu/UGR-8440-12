@@ -49,7 +49,7 @@
         height: 2.2rem;
         padding-top: 4%;
     }
-
+    
     .maincontent__resume {
         width: 90%;
     }
@@ -62,17 +62,18 @@
     }
 
     .maincontent__resume {
-        width: 100%;
+        width: 90vw;
         margin: auto;
     }
 
     .maincontent__body {
-        font-size: 2.5em;
+        font-size: 1em;
     }
 
     .btn--download {
+        margin-right: 1rem;
         padding: 0.2rem 0.4rem;
-        font-size: 2em;
+        font-size: 1rem;
     }
 
 

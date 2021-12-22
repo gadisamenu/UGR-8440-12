@@ -63,7 +63,7 @@
     }
 
     .description {
-        width: auto;
+        width: fit-content;
         margin-bottom: 1rem;
     }
 
@@ -73,13 +73,13 @@
 
 }
 
-/* tabate */
+/* tabate
 @media only screen and (max-width:925px) {
     .link--about {
         height: 2.2rem;
         padding-top: 4%;
     }
-}
+} */
 
 /* mobile view */
 @media screen and (max-width:700px) {
@@ -102,6 +102,34 @@
 
     .table:hover {
         transform: none;
+    }
+    .description {
+        width: 80vw;
+        font-size: 1rem;
+    }
+    
+    .side {
+        width: 80vw;
+        font-size: 1rem;
+        
+    }
+    
+    .side__header {
+        font-size: 1.2rem;
+    }
+    
+    .experiences {
+        margin-top: 5rem;
+    }
+    
+    .table {
+        font-size: 1rem;
+        width: 100vw;
+        margin: auto;
+    }
+    
+    .table__label {
+        font-size: 1rem;
     }
 
 }

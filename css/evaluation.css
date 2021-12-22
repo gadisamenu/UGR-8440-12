@@ -54,9 +54,10 @@
 }
 
 .btn--submit {
-    float: right;
+    width:fit-content;
+    margin-left: 85%;
     margin-right: 2rem;
-    margin-bottom: -6rem;
+    margin-top:2rem;
     font-size: 1.2rem;
 }
 
@@ -81,7 +82,29 @@
     }
 
     .maincontent {
+        width: 95vw;
+        font-size: 1em;
+    }
+    .main__heading {
+        margin-top: 3rem;
+    }
+    
+    .Explain {
+        margin: 1rem
+    }
+    
+    .Explain__content {
         font-size: 1.2rem;
     }
-
+    .eval__form{
+        padding:1rem;
+    }
+    .eval__form__fieldset{
+        padding:0.2rem;
+    }
+    .btn--submit {
+        margin-left: 40vw;
+        margin-top:2rem;
+        font-size: 1.2rem;
+    }
 }
