@@ -19,3 +19,24 @@ function closeMenu() {
 function submitted(){
     alert("submitted successfully!!")
 }
+
+function insert(){
+    let card = document.createElement('div');
+    card.setAttribute('class','section__certifCard')
+
+    let image = document.createElement('img')
+    image.setAttribute('class','section__certifCard__image')
+    let source = prompt('insert the images source directory','')
+    image.setAttribute('src',source)
+    let alt = prompt('insert the alt property of the image','this is image of certificate')
+    image.setAttribute('alt',alt)
+
+    let par = document.createElement('p')
+    let describ = prompt('insert the describtion fo the certificate you are adding','This is a certificate I got by my perfomace.')
+    par.setAttribute('class',"section__certifCard__description")
+    par.innerHTML=describ
+
+    card.appendChild(image)
+    card.appendChild(par)
+    document.getElementById('here').appendChild(card);
+}
