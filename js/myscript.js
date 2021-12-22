@@ -16,3 +16,6 @@ function closeMenu() {
     navList.classList.remove("active");
     head.classList.remove("active")
 }
+function submitted(){
+    alert("submitted successfully!!")
+}

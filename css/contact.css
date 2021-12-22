@@ -49,13 +49,22 @@
     .maincontent {
         font-size: 1.2rem;
     }
-
-    .profile__infor {
-        border-radius: 1rem;
-    }
-
     .link--contact {
         height: 2rem;
         padding-top: 0%;
     }
+        
+    .address {
+        border-radius: 2rem;
+        padding: 1rem;
+    }
+    
+    .address__myaddress {
+        margin-bottom: 2rem;
+    }
+    
+    .socialmedia {
+        width: fit-content;
+    }
+    
 }

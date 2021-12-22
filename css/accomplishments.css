@@ -121,12 +121,11 @@
 
     .section__certifCard {
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         width: 98%;
         margin: auto;
         margin-bottom: 1rem;
         padding: 0px;
-        box-shadow: 0 0 1rem rgb(114, 95, 95);
         font-size: 1.75vw;
     }
 

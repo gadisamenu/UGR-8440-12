@@ -73,16 +73,16 @@
 
 }
 
-/* tabate
-@media only screen and (max-width:925px) {
-    .link--about {
-        height: 2.2rem;
-        padding-top: 4%;
-    }
-} */
 
 /* mobile view */
 @media screen and (max-width:700px) {
+    #top__image {
+        width: 95vw;
+        height: 40vh;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+    }
+
     .maincontent {
         font-size: 1.2rem;
     }
@@ -96,38 +96,44 @@
         padding-top: 0%;
     }
 
-    .table {
+    .description {
+        width: 80vw;
         font-size: 1rem;
+    }
+
+    .side {
+        width: 80vw;
+        font-size: 1rem;
+    }
+
+    .side__header {
+        font-size: 1.2rem;
+    }
+
+    .experiences {
+        margin-top: 5rem;
+    }
+
+    .table {
+        font-size: 3vw;
+        width: 80vw;
+        margin: auto;
+        padding: 0px;
+        border-radius: 0px;
+    }
+
+    .table th {
+        padding: 0px;
+    }
+
+    .table td {
+        padding: 0px;
     }
 
     .table:hover {
         transform: none;
     }
-    .description {
-        width: 80vw;
-        font-size: 1rem;
-    }
-    
-    .side {
-        width: 80vw;
-        font-size: 1rem;
-        
-    }
-    
-    .side__header {
-        font-size: 1.2rem;
-    }
-    
-    .experiences {
-        margin-top: 5rem;
-    }
-    
-    .table {
-        font-size: 1rem;
-        width: 100vw;
-        margin: auto;
-    }
-    
+
     .table__label {
         font-size: 1rem;
     }
