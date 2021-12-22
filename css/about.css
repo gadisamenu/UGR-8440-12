@@ -1,0 +1,107 @@
+.link--about {
+    text-decoration: underline;
+    height: 2.8rem;
+    padding-top: 4%;
+}
+
+#top__image {
+    width: 100%;
+    height: 40vh;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main__about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    width: 65%;
+    padding: 1rem;
+    float: left;
+    box-shadow: 0 0 3px darkgrey;
+}
+
+.side {
+    width: 20vw;
+    float: left;
+    border: 1px solid green;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    height: fit-content;
+}
+
+.side__header {
+    font-size: 1.3rem;
+}
+
+.experiences {
+    margin-top: 5rem;
+}
+
+.table {
+    width: fit-content;
+    margin: auto;
+}
+
+.table__label {
+    width: fit-content;
+    margin: auto;
+}
+
+/* tabate */
+@media only screen and (max-width:925px) {
+    .link--about {
+        height: 2.4rem;
+        padding-top: 10%;
+    }
+
+    .main__about {
+        flex-direction: column;
+    }
+
+    .description {
+        width: auto;
+        margin-bottom: 1rem;
+    }
+
+    .side {
+        width: auto;
+    }
+
+}
+
+/* tabate */
+@media only screen and (max-width:925px) {
+    .link--about {
+        height: 2.2rem;
+        padding-top: 4%;
+    }
+}
+
+/* mobile view */
+@media screen and (max-width:700px) {
+    .maincontent {
+        font-size: 1.2rem;
+    }
+
+    .experiences {
+        padding-bottom: 1rem;
+    }
+
+    .link--about {
+        height: 2rem;
+        padding-top: 0%;
+    }
+
+    .table {
+        font-size: 1rem;
+    }
+
+    .table:hover {
+        transform: none;
+    }
+
+}
